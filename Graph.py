@@ -18,8 +18,8 @@ class Graph:
         self.network = network
         self.adj= nx.adjacency_matrix(network)
         self.date = date
-        self.counts=None 
         self.paths={}
+        self.counts=None 
         self.indices=None
         self.weights=None
         self.OD=None
